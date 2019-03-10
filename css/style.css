@@ -3,6 +3,11 @@
   width: 100%;
   margin: auto;
 }
+.breakline {
+  width: 80%;
+  color: #ffffff;
+  margin: 0;
+}
 
 /* HEADER */
 header {
@@ -96,8 +101,66 @@ header li {
 
 /* TEAM MEMBER SECTION */
 .team {
-  min-height: 800px;
-  /* background-color: #000000; */
+  min-height: 850px;
+  background-color: #000000;
   padding-top: 70px;
+}
+.team .team-title {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+.team .team-description {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  line-height: 2;
+  padding-top: 40px;
+}
+.team .team-member {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 180px;
+}
+.team .team-member-title {
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* FOOTER */
+footer {
+  min-height: 250px;
+  background-color: #000000;
+  padding-top: 70px;
+}
+footer .footer-title {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left;
+}
+footer .footer-list {
+  color: #ffffff;
+  font-size: 13px;
+  text-align: left;
+  padding-top: 20px;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+}
+footer .footer-list:hover {
+  color: #c4c0c0;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer .footer-copyright {
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  letter-spacing: 1.2px;
 }
 
