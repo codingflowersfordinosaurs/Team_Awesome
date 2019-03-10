@@ -1,0 +1,103 @@
+/* GLOBAL */
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  min-height: 100px;
+  background-color: #000000;
+}
+header a {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+header a:hover {
+  color: #c4c0c0;
+  text-decoration: none;
+}
+header a:active {
+  color: #e6c868;
+}
+header .header-brand {
+  font-size: 20px;
+  padding-top: 30px;
+  float: left;
+}
+header .header-links {
+  float: right;
+  padding-top: 30px;
+}
+header li {
+  display: inline;
+  font-size: 15px;
+  padding: 10px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/BYOBJumbotron.jpg);
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.jumbotron .jumbotron-title {
+  color: #ffffff;
+  font-size: 50px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  width: 50%;
+  text-align: left;
+}
+.jumbotron .jumbotron-description {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.7;
+  width: 50%;
+  text-align: left;
+}
+
+/* ABOUT SECTION */
+.about {
+  min-height: 800px;
+  width: 100%;
+  background-color: #000000;
+  padding-top: 75px;
+}
+.about .about-title {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+.about .about-title-description {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+  letter-spacing: 1.2px;
+}
+.about .about-topic {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 100px;
+}
+.about .about-topic-description {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 2;
+  letter-spacing: 1.2px;
+}
+
+/* TEAM MEMBER SECTION */
+.team {
+  min-height: 800px;
+  /* background-color: #000000; */
+  padding-top: 70px;
+}
+
