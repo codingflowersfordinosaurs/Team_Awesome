@@ -233,6 +233,43 @@ footer .footer-copyright {
 /* RECIPE PAGE */
 /* INGREDIENT SECTION: CHECK BOXES WITH STUFF USER HAS */
 .ingredient-list {
-  min-height: 300px;
-  padding-top: 100px;
+  min-height: 400px;
+  padding-top: 175px;
+  padding-bottom: 50px;
+  background-color: #000000;
+}
+.ingredient-list-title {
+  font-size: 25px;
+  font-weight: 800;
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+.ingredient-list h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.ingredient-row {
+  padding-bottom: 20px;
+}
+.ingredients {
+  padding: 10px;
+  padding-left: 0;
+  color: #ffffff;
+}
+.get-recipes-btn {
+  font-size: 15px;
+  font-weight: 800;
+  padding: 10px;
+  border: #ffffff 1px solid;
+  color: #ffffff;
+  background-color: #000000;
+}
+.get-recipes-btn:hover {
+  color: #c4c0c0;
+  text-decoration: none;
+  cursor: pointer;
+}
+.get-recipes-btn:active {
+  color: #e6c868;
+  border: solid 1px #e6c868;
 }
