@@ -206,14 +206,14 @@ footer .footer-copyright {
   border: #ffffff 1px solid;
   background-color: #000000
 }
-.card:hover {
+/* .card:hover {
   color: #c4c0c0;
   text-decoration: none;
   cursor: pointer;
 }
 .card:active{
   color: #e6c868;
-}
+} */
 .card .card-img-top {
   border: #ffffff 1px solid;
   border-bottom: #ffffff 1px solid;
@@ -230,3 +230,9 @@ footer .footer-copyright {
   font-size: 15px;
 }
 
+/* RECIPE PAGE */
+/* INGREDIENT SECTION: CHECK BOXES WITH STUFF USER HAS */
+.ingredient-list {
+  min-height: 300px;
+  padding-top: 100px;
+}
